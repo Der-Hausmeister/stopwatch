@@ -1,0 +1,15 @@
+# IntelliJ metadata
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System files
+.DS_Store
+Thumbs.db
