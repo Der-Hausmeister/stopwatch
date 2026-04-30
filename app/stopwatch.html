@@ -9,10 +9,16 @@
 <h1>Simple Stopwatch</h1>
 <p id="timer">00:00:00</p>
 <div>
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
-    <button id="reset">Reset</button>
-    <button id="lap">Lap</button>
+    <button id="start" onclick="startStopwatch()">Start</button>
+    <button id="stop" onclick="stopStopwatch()">Stop</button>
+    <button id="reset" onclick="resetStopwatch()">Reset</button>
+    <button id="lap" onclick="addLap()">Lap</button>
 </div>
+<div>
+    <ol id="laps">
+    </ol>
+</div>
+
+<script src="stopwatch.js"></script>
 </body>
 </html>
