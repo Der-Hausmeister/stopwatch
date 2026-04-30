@@ -50,3 +50,8 @@ function createLapItem() {
 function addLap() {
   document.getElementById('laps').innerHTML += createLapItem();
 }
+
+document.getElementById('start').addEventListener('click', startStopwatch);
+document.getElementById('stop').addEventListener('click', stopStopwatch);
+document.getElementById('reset').addEventListener('click', resetStopwatch);
+document.getElementById('lap').addEventListener('click', addLap);
