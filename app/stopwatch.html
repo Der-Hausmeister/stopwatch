@@ -7,19 +7,20 @@
     <title>Stopwatch</title>
 </head>
 <body>
-<h1>Simple Stopwatch</h1>
-<p id="timer">00:00:00</p>
-<div>
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
-    <button id="reset">Reset</button>
-    <button id="lap">Lap</button>
+<div id="content">
+    <h1>Simple Stopwatch</h1>
+    <p id="timer">00:00:00</p>
+    <div id="button-group">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+    </div>
+    <div>
+        <ol id="laps">
+        </ol>
+    </div>
 </div>
-<div>
-    <ol id="laps">
-    </ol>
-</div>
-
 <script src="stopwatch.js"></script>
 </body>
 </html>
